@@ -1,0 +1,189 @@
+html, body, #mainContainer {
+    color: #ddd;
+    background: #111;
+}
+
+/**
+ * Post authors use to color headings with inline styling. Important
+ * prevents them from breaking the dark theme.
+ */
+h2, h3, h4, h5, h2 span, h3 span, h4 span, h5 span {
+    color: #eaeaea !important;
+}
+
+.header .top {
+    background-color: #2f2f2f;
+    color: #ffea9c;
+}
+
+/* todo: get rid of important-s */
+
+.header.top-shadow .top {
+    border-bottom: 2px solid #4e4c44 !important;
+}
+
+.top-badge-list .badge-list .badge .text {
+    color: #ddd;
+}
+
+.entry-header h2 {
+    color: #ffea9c !important;
+}
+
+.post-grid .post .post-author-meta {
+    border-color: #313131;
+}
+
+.byline a {
+    color: #969696;
+}
+
+.featured-area .featured-item:first-child, .featured-area .featured-item:first-child + .featured-item, .featured-area
+.featured-item:first-child + .featured-item + .featured-item, .page-wrapper, .page-wrapper, #mainContainer,
+#mainContainer:before, #mainContainer:after, .authentication .wrapper, .header .more-menu, .header .account-box
+.user-box .menu, .header .main-navigation .sub-menu, .authentication, .inline-popup, .post-share-box .post-share-count,
+.post-share-box.stuck, .post-rating a, .fixed-pagination .page .content, .fixed-next-page, .mobile-navigation-wrapper,
+.mejs-container, .featured-area .featured-item:first-child, .featured-area .featured-item:first-child + .featured-item,
+.featured-area .featured-item:first-child + .featured-item + .featured-item {
+    background-color: #111111;
+    border-color: #111111;
+}
+
+.fixed-next-page {
+    background-color: #2F2F2F !important;
+}
+
+h2.widget-title {
+    color: #ccc;
+}
+
+hr, .single .post.single .entry-header hr {
+    background: #111;
+}
+
+.weblator-poll-container, .post-tags a, .fancybox-skin {
+    color: #ddd;
+}
+
+.post-tags a {
+    color: #fff;
+    background: #333;
+    border-color: #333;
+}
+
+.reaction-box .reaction-item .reaction-bar, .reaction-box .reaction-item .reaction-bar {
+    background-color: #212121;
+    color: #eee;
+}
+
+.engage-comments {
+    border-color: #000;
+    color: #000;
+    background: #ffea9c;
+}
+
+.other-posts .title, .reaction-box .title, #comments h2#reply-title {
+    color: #ddd;
+}
+
+.ejyw-widget .title {
+    background: #212121 !important;
+}
+
+header.page-header {
+    background-color: #1d1d1d;
+    border-color: #111;
+}
+
+.post-list .post .post-author-meta {
+    border-color: #212121;
+}
+
+.reaction-item .reaction-bar .reaction-stat, .badge .circle, #comments .comment-form input#submit {
+    background-color: #ffea9c;
+}
+
+.reaction-item .reaction-vote-btn:not(.disabled):hover, .reaction-item.voted .reaction-vote-btn {
+    background-color: #ceba80;
+}
+
+#buddypress table th, #buddypress .item-header a, #buddypress .activity-header a, #buddypress .acomment-header a, #buddypress #invite-list label, #buddypress .standard-form label, #buddypress .standard-form legend, #buddypress .standard-form span.label, #buddypress .messages-notices .thread-from a, #buddypress .messages-notices .thread-info a, #buddypress #item-header-content .group-name, #buddypress #item-header-content .member-name {
+    color: #cccccc;
+}
+
+.vp-nameplate, .fixed-pagination .page .content .title, .more_items_x legend, .more_items legend, .more_items_glow, h1, h2, h3, h4, h5, h6 {
+    color: #ECECEC;
+}
+
+.widget_recent_comments .recentcomments .comment-author-link, .widget_recent_comments .recentcomments a, #header .more-menu, .header .main-navigation .sub-menu, .featured-strip .slick-next:before, .featured-strip .slick-prev:before, .featured-strip .slick-dots li button:before, .header .top-search form input, .more-load-button button, .vp-op-au-2 a, .fixed-next-page .next-page .pages, #comments .comment .comment-body .comment-content small a, .byline a, .byline .author-name {
+    color: #E6E6E6;
+}
+
+.reaction-box .reaction-item .reaction-vote-btn {
+    background-color: #3a3a3a;
+}
+
+#header .more-menu .more-menu-footer, #header .more-menu .more-menu-header {
+    border-color: #fff0aa;
+}
+
+blockquote, .fixed-pagination .page .arrow, .post-share-box .post-comments, .captcha-container input, .form-captcha .refresh-captcha, #comments .pingback .comment-body .comment-reply-link, .reaction-box .reaction-item .reaction-vote-btn, .reaction-box .reaction-item .reaction-bar, .bb-btn, .bb-btn:hover, button:hover, button, .tabs-menu li, .widget_sidebar_footer {
+    color: #E6E6E6;
+}
+
+#comments .vcard .fn, #comments .vcard .fn a {
+    color: #fff !important;
+}
+
+#comments .comment .comment-body .comment-reply-link {
+    background: #444;
+    border-color: #444;
+    color: #ccc;
+}
+
+.desktop ::-webkit-scrollbar-track {
+    background-color: #232323;
+}
+
+.header .account-box .user-box .menu, #more-menu, .header .top-search form input {
+    background-color: #2f2f2f;
+    border-color: #292929;
+    color: white;
+    box-shadow: 0 0 4px #171717;
+}
+
+.fancybox-wrap .fancybox-skin .fancybox-outer .fancybox-inner .social-box .popup-footer {
+    border-color: #fff0aa;
+}
+
+span.post-share-count {
+    background-color: rgba(54, 54, 54, 0.8);
+    color: #fff;
+}
+
+.page-trending .trending-navigation {
+    border-color: #1d1d1d;
+}
+
+.ttpci.totalpoll-choice-image {
+    background: #fff !important;
+}
+
+.weblator-poll-container .panel-footer {
+    background-color: #252525;
+    border-top: 1px solid #1f1f1f;
+}
+
+.weblator-poll-container .panel-default > .panel-heading {
+    color: #ffffff;
+    background-color: #252525;
+    border-color: #111111;
+}
+
+.weblator-poll-container .panel-body {
+    background: #333;
+}
+
+.weblator-poll-container .panel-default {
+    border-color: #5d5d5d;
+}
