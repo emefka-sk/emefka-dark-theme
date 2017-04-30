@@ -132,7 +132,7 @@ blockquote, .fixed-pagination .page .arrow, .post-share-box .post-comments, .cap
 }
 
 #comments .vcard .fn, #comments .vcard .fn a {
-    color: #fff !important;
+    color: #fff;
 }
 
 #comments .comment .comment-body .comment-reply-link {
@@ -156,17 +156,12 @@ blockquote, .fixed-pagination .page .arrow, .post-share-box .post-comments, .cap
     border-color: #fff0aa;
 }
 
-span.post-share-count {
-    background-color: rgba(54, 54, 54, 0.8);
-    color: #fff;
-}
-
 .page-trending .trending-navigation {
     border-color: #1d1d1d;
 }
 
 .ttpci.totalpoll-choice-image {
-    background: #fff !important;
+    background: #fff !important; /* Importants are used in this plugin. */
 }
 
 .weblator-poll-container .panel-footer {
